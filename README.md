@@ -4,8 +4,6 @@ This script creates new keypairs and swaps a small amount of SOL for tokens to i
 
 With the default settings, it costs approximately 0.05 SOL per 1,000 makers.
 
-You may need a VPN to create more than 100 makers at a time. The Raydium API rate-limits based on IP addresses, so using a VPN with rotating IPs can help.
-
 The script includes support for SPL Token 2022. It identifies the token program based on the mint address and swaps SOL using the Jupiter v6 API. For SPL Tokens, it continues to use Raydium because I found transactions land more consistently when using Raydium's SDK.
 
 1. npm install
