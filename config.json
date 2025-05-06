@@ -1,0 +1,21 @@
+{
+  "general": {
+    "RPC_URL": "your_RPC_url",
+    "SOURCE_KEYPAIR_PATH": "your_keypair_path.json",
+    "LOOP_ENABLED": true
+  },
+  "generate": {
+    "KEYPAIR_QTY": 200
+  },
+  "transfer": {
+    "TRANSFER_AMOUNT": 0.0045
+  },
+  "swap": {
+    "TOKEN_MINT": "makers_token_mint",
+    "SOL_TO_SWAP": 0.000001,
+    "PRIORITY_FEE_MICROLAMPORTS": 5000
+  },
+  "close": {
+    "PRIORITY_FEE_MICROLAMPORTS": 5000
+  }
+}

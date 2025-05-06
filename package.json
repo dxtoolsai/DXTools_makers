@@ -1,0 +1,22 @@
+{
+   "name": "dex-maker",
+   "version": "0.1.0",
+   "description": "Creates new 'makers' to boost Dexscreener/Dextools etc",
+   "main": "Main.js",
+   "scripts": {
+      "start": "node main.js"
+   },
+   "keywords": [],
+   "author": "Cranny",
+   "license": "ISC",
+   "dependencies": {
+      "@raydium-io/raydium-sdk-v2": "^0.1.100-alpha",
+      "@solana/spl-token": "^0.4.9",
+      "@solana/web3.js": "^1.98.0",
+      "axios": "^1.7.9",
+      "bullmq": "^5.41.2",
+      "dotenv": "^16.4.7",
+      "node-fetch": "^2.7.0",
+      "promise-retry": "^2.0.1"
+   }
+}
